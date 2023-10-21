@@ -1,11 +1,6 @@
 # OfficeWorkManual
 
 # 事務マニュアル
-## 事務マニュアル
-### 事務マニュアル
-#### 事務マニュアル
-##### 事務マニュアル
-###### 事務マニュアル
 
 Hello!  
 
@@ -13,11 +8,19 @@ Hello!
 	* コラム 1
 	* Column 2
 		* Indent 1
+		* Indent 2
+		* Indent 3
+		* Indent 4
+		* Indent 5
 
 - Dash is also OK
 	- Dash Column 1
 	- コラム 2
 		- インデントはタブ
+			- インデントはタブ
+				- インデントはタブ
+					- インデントはタブ
+						- インデントはタブ
 
 1. Numbering List
 2. ほげ
@@ -26,31 +29,24 @@ Hello!
 	1. ほげほげほげ
 	1. ほげほげほげほげ
 	1. ほげほげほげほげほげ
+		1. ほげほげ
+		1. ほげほげほげ
+		1. ほげほげほげほげ
+		1. ほげほげほげほげほげ
+			1. ほげほげ
+			1. ほげほげほげ
+			1. ほげほげほげほげ
+			1. ほげほげほげほげほげ
 
 改行は空白2つ  
 brでも可<br>
 <br>
+<br>
+<br>
 `インライン表示`  
 `
-	int i=0;
+	float i=0;
 `
-```java
-// コードブロック (java:未検証)
-public class Main {
-	public static void main(String[] args){
-		System.out.println("ナベアツコード");
-
-		int max=1000;
-		
-		for(int i=1; i<=max; i++){
-			String num = Integer.toString(i);
-			if(i%3 == 0 || num.contains("3")){
-				System.out.println("アホ");
-			} else System.out.println(num);
-		}
-	}
-}
-```
 ```php
 // コードブロック (php:未検証)
 echo "ナベアツコード";
@@ -77,6 +73,11 @@ for($i=1; $i<=MAX; $i++){
 >>> 引用テーブル
 >>>> 引用テーブル
 >>>>> 引用テーブル
+>>>>>> 引用テーブル
+>>>>>>> 引用テーブル
+>>>>>>>> 引用テーブル
+>>>>>>>>> 引用テーブル
+>>>>>>>>>> 引用テーブル
 
 画像  
 ![低クヲリティ](sample.png "低クヲリティ")
@@ -85,18 +86,22 @@ htmlのようにimgタグを使用することも可
 <img width="320" alt="低クヲリティ" src="sample.png">  
 <img width="240" alt="低クヲリティ" src="sample.png">  
 <img width="180" alt="低クヲリティ" src="sample.png">  
+<img width="120" alt="低クヲリティ" src="sample.png">  
+<img width="90" alt="低クヲリティ" src="sample.png">  
+<img width="60" alt="低クヲリティ" src="sample.png">  
+<img width="45" alt="低クヲリティ" src="sample.png">  
 
 テーブル  
-| 列1 | 列2 | 列3 |
-| --- | --- | --- |
-| 行1 | 行1 | 行1 |
-| 行2 | 行2 | 行2 |
-| 行3 | 行3 | 行3 |
+| 列1 | 列2 | 列3 | 列3 | 列3 |
+| --- | --- | --- | --- | --- |
+| 行1 | 行1 | 行1 | 行1 | 行1 |
+| 行2 | 行2 | 行2 | 行2 | 行2 |
+| 行3 | 行3 | 行3 | 行3 | 行3 |
 
 文字色指定  
-<font color="red">赤っぽいな</font>  
-<font color="gree">緑っぽいな</font>  
-<font color="blue">青っぽいな</font>  
+<font color="cyan">赤っぽいな</font>  
+<font color="magenta">緑っぽいな</font>  
+<font color="yellow">青っぽいな</font>  
 
 *ITALIC*  
 **BOLD**  
@@ -112,9 +117,9 @@ hrでも可
 <hr>
 
 注釈  
-スーパーマリオワンダー[^1]  
+スーパーマリオRPG[^1]  
 
-[^1]: https://www.nintendo.com/jp/switch/aqmxa/index.html
+[^1]: https://www.nintendo.com/jp/switch/a8lua/index.html
 
 エスケープ  
 \`インライン表示されなくなる`
